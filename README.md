@@ -36,9 +36,14 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Hooks that block destructive commands, exfiltration attempts, or unsafe file access before they execute.
 
+- [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — `PreToolUse` guardrail hook blocking destructive git/filesystem commands and secret file access; also supports Codex, Cursor, Gemini CLI, and other agent runtimes.
+- [kornysietsma/claude-code-permissions-hook](https://github.com/kornysietsma/claude-code-permissions-hook) — `PreToolUse` hook for more granular, rule-based permission controls than the built-in allow/deny lists.
+- [li-zhixin/claude-ignore](https://github.com/li-zhixin/claude-ignore) — `PreToolUse` hook that blocks Claude from reading files matching `.claudeignore` patterns, mirroring `.gitignore` semantics.
+- [liberzon/claude-hooks](https://github.com/liberzon/claude-hooks) — `PreToolUse` hook that decomposes compound bash commands and checks each sub-command individually against allow/deny permission patterns.
 - [Pantheon-Security/medusa](https://github.com/Pantheon-Security/medusa) — scans `.claude/` hooks, permissions, and skills for compromise before you clone/run a repo; 40,000+ attack-signature patterns.
 - [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) — 6-layer security hook stack bundled into a full Claude Code plugin framework.
+- [wangbooth/Claude-Code-Guardrails](https://github.com/wangbooth/Claude-Code-Guardrails) — protective hooks preventing accidental code loss via branch protection, automatic checkpointing, and safe commit squashing.
 
 ## Notification Hooks
 
