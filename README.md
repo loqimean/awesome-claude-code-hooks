@@ -37,6 +37,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 Hooks that block destructive commands, exfiltration attempts, or unsafe file access before they execute.
 
 - [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
+- [JeongJaeSoon/agent-guard](https://github.com/JeongJaeSoon/agent-guard) — `PreToolUse` guardrail that blocks an agent from reading `.env` files or writing secret-like values, using gitleaks for detection, with matching Git hook and CI backstops.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — `PreToolUse` guardrail hook blocking destructive git/filesystem commands and secret file access; also supports Codex, Cursor, Gemini CLI, and other agent runtimes.
 - [kornysietsma/claude-code-permissions-hook](https://github.com/kornysietsma/claude-code-permissions-hook) — `PreToolUse` hook for more granular, rule-based permission controls than the built-in allow/deny lists.
 - [li-zhixin/claude-ignore](https://github.com/li-zhixin/claude-ignore) — `PreToolUse` hook that blocks Claude from reading files matching `.claudeignore` patterns, mirroring `.gitignore` semantics.
@@ -56,6 +57,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) — real-time dashboard for monitoring multiple Claude Code agents via hook event tracking.
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — hooks capture full sessions, an LLM compiler distills them into a structured, cross-referenced project knowledge base.
+- [hansipie/ecotokens](https://github.com/hansipie/ecotokens) — `PreToolUse`/`PostToolUse` hooks filter and compress shell output, file reads, and grep results before they hit the model, with a TUI dashboard tracking token savings per project.
 
 ## Git & Commit Hooks
 
