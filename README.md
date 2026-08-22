@@ -36,7 +36,9 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Hooks that block destructive commands, exfiltration attempts, or unsafe file access before they execute.
 
+- [DataFog/datafog-python](https://github.com/DataFog/datafog-python) — `datafog-hook` gates tool calls (shell commands, web requests, file writes, MCP tools) and blocks PII from leaving the machine, entirely offline in ~70-90ms.
 - [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
+- [hanlulong/overleaf-sync-now](https://github.com/hanlulong/overleaf-sync-now) — `PreToolUse` hook that pulls fresh Overleaf web edits before every `.tex`/`.bib` read or write, stopping the agent from silently overwriting them with a stale local Dropbox copy.
 - [JeongJaeSoon/agent-guard](https://github.com/JeongJaeSoon/agent-guard) — `PreToolUse` guardrail that blocks an agent from reading `.env` files or writing secret-like values, using gitleaks for detection, with matching Git hook and CI backstops.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — `PreToolUse` guardrail hook blocking destructive git/filesystem commands and secret file access; also supports Codex, Cursor, Gemini CLI, and other agent runtimes.
 - [kornysietsma/claude-code-permissions-hook](https://github.com/kornysietsma/claude-code-permissions-hook) — `PreToolUse` hook for more granular, rule-based permission controls than the built-in allow/deny lists.
