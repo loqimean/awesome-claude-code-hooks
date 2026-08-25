@@ -38,6 +38,7 @@ Hooks that block destructive commands, exfiltration attempts, or unsafe file acc
 
 - [DataFog/datafog-python](https://github.com/DataFog/datafog-python) — `datafog-hook` gates tool calls (shell commands, web requests, file writes, MCP tools) and blocks PII from leaving the machine, entirely offline in ~70-90ms.
 - [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
+- [yurukusa/cc-safe-setup](https://github.com/yurukusa/cc-safe-setup) — interactive installer for `PreToolUse`/`PostToolUse`/`SessionStart`/`Stop`/`SubagentStop` hooks that block destructive commands (`rm -rf`, force-push, `git reset --hard`, secret writes) at the tool boundary, with plugin variants for git protection, credential guarding, and token budgets.
 - [hanlulong/overleaf-sync-now](https://github.com/hanlulong/overleaf-sync-now) — `PreToolUse` hook that pulls fresh Overleaf web edits before every `.tex`/`.bib` read or write, stopping the agent from silently overwriting them with a stale local Dropbox copy.
 - [JeongJaeSoon/agent-guard](https://github.com/JeongJaeSoon/agent-guard) — `PreToolUse` guardrail that blocks an agent from reading `.env` files or writing secret-like values, using gitleaks for detection, with matching Git hook and CI backstops.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — `PreToolUse` guardrail hook blocking destructive git/filesystem commands and secret file access; also supports Codex, Cursor, Gemini CLI, and other agent runtimes.
@@ -79,6 +80,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 ## Session Memory & Context Hooks
 
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — auto-captures sessions and compiles a persistent, evolving knowledge base.
+- [entireio/cli](https://github.com/entireio/cli) — installs `PreToolUse`/`PostToolUse` hooks that capture full agent sessions (prompts, files touched, tool calls) into a separate git branch, indexed and searchable alongside your commit history.
 - [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) — ledger/handoff hooks for context management across long sessions.
 - [SethGammon/Citadel](https://github.com/SethGammon/Citadel) — persistent project memory, intent routing, safety hooks, and cost telemetry as one operating layer.
 
