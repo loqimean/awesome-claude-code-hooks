@@ -90,6 +90,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) — hub for finding hooks alongside skills, agents, commands, and marketplace plugins.
 - [composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) — curated Claude Code plugins that bundle hooks with commands/agents/MCP servers.
 - [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) — battle-tested hook configs across Claude Code, Codex, and Cursor.
+- [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) — generates a catalog of enforcement hooks (TDD guard, branch guard, command guard, commit-test gate, auto-lint, auto-PR) from a plain-English project description, with `omh sync --check` as a CI drift gate.
 - [vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem) — 73 hooks as part of a larger self-learning multi-agent swarm setup.
 
 ## Multi-Agent / Cross-Tool Hooks
