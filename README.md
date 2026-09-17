@@ -64,6 +64,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Git & Commit Hooks
 
+- [malaysherasia-ai/claude-never-again](https://github.com/malaysherasia-ai/claude-never-again) — turns each bug you fix into a `PreToolUse` hook on `git commit` that blocks the mistake (warn first, then deny after five correct fires), also run from git’s own pre-commit; the rest become one capped line in LESSONS.md.
 - [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) — hooks maintain ledgers/handoffs for context continuity across sessions and commits.
 - [blader/taskmaster](https://github.com/blader/taskmaster) — `Stop` hook that keeps the agent working until all plan items and user requests are fully complete, rather than stopping early.
 
