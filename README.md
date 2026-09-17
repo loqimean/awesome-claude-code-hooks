@@ -47,6 +47,7 @@ Hooks that block destructive commands, exfiltration attempts, or unsafe file acc
 - [liberzon/claude-hooks](https://github.com/liberzon/claude-hooks) — `PreToolUse` hook that decomposes compound bash commands and checks each sub-command individually against allow/deny permission patterns.
 - [Pantheon-Security/medusa](https://github.com/Pantheon-Security/medusa) — scans `.claude/` hooks, permissions, and skills for compromise before you clone/run a repo; 40,000+ attack-signature patterns.
 - [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) — 6-layer security hook stack bundled into a full Claude Code plugin framework.
+- [tillmeier/claude-code-guardrails](https://github.com/tillmeier/claude-code-guardrails) — guardrail hooks derived from real incidents, paired with a plan→implement→verify→crosscheck loop, backed by 35 bats tests and measured hook overhead.
 - [wangbooth/Claude-Code-Guardrails](https://github.com/wangbooth/Claude-Code-Guardrails) — protective hooks preventing accidental code loss via branch protection, automatic checkpointing, and safe commit squashing.
 
 ## Notification Hooks
