@@ -89,6 +89,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 ## Session Memory & Context Hooks
 
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — auto-captures sessions and compiles a persistent, evolving knowledge base.
+- [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) — single Go binary that indexes session history already on disk across Claude Code, Codex, Cursor, and 35+ other agents, surfacing matching past fixes via local search, MCP, and hooks with no LLM in the loop.
 - [entireio/cli](https://github.com/entireio/cli) — installs `PreToolUse`/`PostToolUse` hooks that capture full agent sessions (prompts, files touched, tool calls) into a separate git branch, indexed and searchable alongside your commit history.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — hooks that compress tool output to save context window space and persist session memory.
 - [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) — ledger/handoff hooks for context management across long sessions.
