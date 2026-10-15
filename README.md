@@ -99,6 +99,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Frameworks & Toolkits (bundle many hooks)
 
+- [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) — 14 documented hooks (secret scanning, lock-file/`.env` protection, auto-format by file type, `tsc` checks, branch protection, command logging) bundled with 7 agents and 26 commands.
 - [composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) — curated Claude Code plugins that bundle hooks with commands/agents/MCP servers.
 - [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) — hub for finding hooks alongside skills, agents, commands, and marketplace plugins.
 - [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) — battle-tested hook configs across Claude Code, Codex, and Cursor.
