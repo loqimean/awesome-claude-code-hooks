@@ -89,6 +89,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Session Memory & Context Hooks
 
+- [ajwann/next-context](https://github.com/ajwann/next-context) — a mod whose `turn.step`, `turn.complete` and `session.compact` hooks keep a context-window band above the prompt: a bar by `/context` category, tokens loaded before the first message with the largest MCP server, growth per turn, projected turns until auto-compaction, and warnings at thresholds you set.
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — auto-captures sessions and compiles a persistent, evolving knowledge base.
 - [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) — single Go binary that indexes session history already on disk across Claude Code, Codex, Cursor, and 35+ other agents, surfacing matching past fixes via local search, MCP, and hooks with no LLM in the loop.
 - [entireio/cli](https://github.com/entireio/cli) — installs `PreToolUse`/`PostToolUse` hooks that capture full agent sessions (prompts, files touched, tool calls) into a separate git branch, indexed and searchable alongside your commit history.
