@@ -90,6 +90,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Session Memory & Context Hooks
 
+- [bulatko/SMCReader](https://github.com/bulatko/SMCReader) — a `PostToolUse` hook puts large `Bash` and `WebFetch` outputs on disk behind a short pointer, and an MCP server lets the model pull exact lines or ask a Haiku reader, so the full output stays available without entering the context.
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — auto-captures sessions and compiles a persistent, evolving knowledge base.
 - [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) — single Go binary that indexes session history already on disk across Claude Code, Codex, Cursor, and 35+ other agents, surfacing matching past fixes via local search, MCP, and hooks with no LLM in the loop.
 - [entireio/cli](https://github.com/entireio/cli) — installs `PreToolUse`/`PostToolUse` hooks that capture full agent sessions (prompts, files touched, tool calls) into a separate git branch, indexed and searchable alongside your commit history.
