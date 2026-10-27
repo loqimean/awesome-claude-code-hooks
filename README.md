@@ -52,6 +52,7 @@ Hooks that block destructive commands, exfiltration attempts, or unsafe file acc
 - [MaxwellCalkin/sentinel-ai](https://github.com/MaxwellCalkin/sentinel-ai) — safety guardrails that use fast scanners to detect prompt injection, PII, and code vulnerabilities.
 - [Pantheon-Security/medusa](https://github.com/Pantheon-Security/medusa) — scans `.claude/` hooks, permissions, and skills for compromise before you clone/run a repo; 40,000+ attack-signature patterns.
 - [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) — 6-layer security hook stack bundled into a full Claude Code plugin framework.
+- [team-humaki/agent-seatbelt-lite](https://github.com/team-humaki/agent-seatbelt-lite) — single-file, stdlib-only Python `PreToolUse` hook that blocks `rm -rf` on home/root/system dirs, force-pushes to `main`/`master`, `curl | bash`, and `.env` reads, including inside `bash -c` and `&&` chains.
 - [tillmeier/claude-code-guardrails](https://github.com/tillmeier/claude-code-guardrails) — guardrail hooks derived from real incidents, paired with a plan→implement→verify→crosscheck loop, backed by 35 bats tests and measured hook overhead.
 - [ulukaya/pawl](https://github.com/ulukaya/pawl) — deterministic `PreToolUse`/`Stop` gates for Claude Code, Codex and Antigravity that refuse home/root deletions (following scripts, Makefiles and `npm run`), ask before destructive git and credential reads, block token egress, and auto-approve provably read-only commands; stdlib Python, no network.
 - [wangbooth/Claude-Code-Guardrails](https://github.com/wangbooth/Claude-Code-Guardrails) — protective hooks preventing accidental code loss via branch protection, automatic checkpointing, and safe commit squashing.
@@ -97,6 +98,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) — ledger/handoff hooks for context management across long sessions.
 - [SethGammon/Citadel](https://github.com/SethGammon/Citadel) — persistent project memory, intent routing, safety hooks, and cost telemetry as one operating layer.
 - [shimo4228/harness-scope](https://github.com/shimo4228/harness-scope) — a mod whose `prompt.context`, `prompt.attachment`, `agent.offer` and `tool.call` hooks hide global skills, agents, rules files and tools per repo through named profiles, so each repo's context carries only what it uses.
+- [team-humaki/token-diet-lite](https://github.com/team-humaki/token-diet-lite) — single-file, stdlib-only Python `PreToolUse` hook that blocks full reads of lockfiles, minified bundles, `node_modules`/`.venv` files and binaries, telling Claude to grep or read a narrow range instead.
 
 ## Frameworks & Toolkits (bundle many hooks)
 
