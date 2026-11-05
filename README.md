@@ -63,6 +63,7 @@ Hooks that block destructive commands, exfiltration attempts, or unsafe file acc
 Send a ping to Slack, Telegram, desktop notification center, etc. when Claude needs input or finishes a task.
 
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) — includes `Notification` and `Stop` hook examples with TTS + desktop notification dispatch.
+- [radres/call-me](https://github.com/radres/call-me) — a `Stop` hook plus answer waiter that rings your real phone when Claude parks a question you have not answered, and returns your spoken reply.
 - [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) — adds a distinct voice announcement per hook event so you know what Claude is doing without watching the terminal.
 
 ## Observability & Logging Hooks
