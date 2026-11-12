@@ -81,6 +81,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) — toolkit of custom hooks/commands including lint/format/test gate hooks.
 - [ckorhonen/jev-lint](https://github.com/ckorhonen/jev-lint) — fuzzy linting hook that checks Claude Code and Codex edits against team standards and test-hygiene rules, returning findings to the agent.
+- [kennywu411-dev/honestly](https://github.com/kennywu411-dev/honestly) — `Stop` and `PreToolUse` hooks that hold a reply claiming tests pass, pushed or built when no check ran after the agent's last edit, and refuse pipes like `pytest | tail` that hide a failing exit code.
 - [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) — `UserPromptSubmit` hook that rewrites loose prompts into precise ones before Claude sees them.
 
 ## Voice / TTS Hooks
