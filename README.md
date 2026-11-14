@@ -70,6 +70,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — hooks capture full sessions, an LLM compiler distills them into a structured, cross-referenced project knowledge base.
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) — real-time dashboard for monitoring multiple Claude Code agents via hook event tracking.
 - [hansipie/ecotokens](https://github.com/hansipie/ecotokens) — `PreToolUse`/`PostToolUse` hooks filter and compress shell output, file reads, and grep results before they hit the model, with a TUI dashboard tracking token savings per project.
+- [noambrand/ai-time-estimator](https://github.com/noambrand/ai-time-estimator) — a `Stop` hook scores every "how long will this take?" estimate against the session transcript, so the estimator's ranges are measured on your machine and correct themselves.
 
 ## Git & Commit Hooks
 
