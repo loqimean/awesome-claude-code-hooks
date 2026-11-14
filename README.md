@@ -62,6 +62,7 @@ Hooks that block destructive commands, exfiltration attempts, or unsafe file acc
 
 Send a ping to Slack, Telegram, desktop notification center, etc. when Claude needs input or finishes a task.
 
+- [777genius/agent-notifications](https://github.com/777genius/agent-notifications) — sends desktop and webhook alerts from Claude Code lifecycle hooks, with sounds and click-to-focus on macOS, Linux and Windows.
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) — includes `Notification` and `Stop` hook examples with TTS + desktop notification dispatch.
 - [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) — adds a distinct voice announcement per hook event so you know what Claude is doing without watching the terminal.
 
