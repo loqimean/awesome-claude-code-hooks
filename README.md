@@ -37,6 +37,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Hooks that block destructive commands, exfiltration attempts, or unsafe file access before they execute.
 
+- [clemcube/seatbelt-lite](https://github.com/clemcube/seatbelt-lite) — Stop hook that sends Claude back when it says a deploy is live with no check after the deploy, plus `PreToolUse` guards for Supabase views readable by anon, `rm -rf` on `/`, `~`, `$HOME` or the current folder, force push and staging every file at once.
 - [DataFog/datafog-python](https://github.com/DataFog/datafog-python) — `datafog-hook` gates tool calls (shell commands, web requests, file writes, MCP tools) and blocks PII from leaving the machine, entirely offline in ~70-90ms.
 - [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) — Rust `PreToolUse` hook that blocks destructive git, filesystem, database, Kubernetes, cloud, and Terraform commands (including ones hidden in heredocs and inline scripts) via 50+ rule packs, with explain mode and a CI scan mode; installs into Claude Code, Codex, Gemini CLI, Copilot, Cursor, and more.
 - [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
