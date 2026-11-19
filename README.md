@@ -27,6 +27,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Getting Started / Guides
 
+- [Ar9av/agent-manual](https://github.com/Ar9av/agent-manual) — cross-tool hooks reference with an event comparison matrix, exit-code blocking rules, and config paths for Claude Code, Codex, Copilot, Cursor, Gemini CLI, and 30+ other agents.
 - [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) — full project config example wiring hooks, skills, agents, and commands together.
 - [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) — skill auto-activation + hooks + agents infrastructure example.
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) — the most complete hands-on reference for every hook event, with working examples for each.
@@ -108,6 +109,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit) — issue-pipeline plugin with 28 hooks in four groups (safety, docs, manager, workflow) that gate commits on Conventional Commits and test proof, guard vendor files, and keep GitHub issue labels in step with the work.
 - [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) — generates a catalog of enforcement hooks (TDD guard, branch guard, command guard, commit-test gate, auto-lint, auto-PR) from a plain-English project description, with `omh sync --check` as a CI drift gate.
 - [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) — 20+ hooks bundled with agents, skills, commands, and rules.
+- [SebastienDegodez/skraft-plugin](https://github.com/SebastienDegodez/skraft-plugin) — SDLC pipeline plugin for Claude Code and Copilot whose fail-closed hooks block out-of-order subagent dispatch, force required skills to load (with a JSONL audit), and refuse to advance a phase without a real artifact, an `APPROVED` review verdict, and a verified commit.
 - [vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem) — 73 hooks as part of a larger self-learning multi-agent swarm setup.
 - [yotamleo-org/Himmel](https://github.com/yotamleo-org/Himmel) — an orchestrated harness for running Claude Code that includes guardrail hooks, a Jira CLI, and a cross-session handover system.
 
