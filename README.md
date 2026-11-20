@@ -67,6 +67,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Observability & Logging Hooks
 
+- [alexeyw/lot-map](https://github.com/alexeyw/lot-map) — plugin that hooks every tool call, model step, skill, subagent, and hook decision and draws it live as pulses on a map in a pane beside the chat, with refusals and errors in red; local only.
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — hooks capture full sessions, an LLM compiler distills them into a structured, cross-referenced project knowledge base.
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) — real-time dashboard for monitoring multiple Claude Code agents via hook event tracking.
 - [hansipie/ecotokens](https://github.com/hansipie/ecotokens) — `PreToolUse`/`PostToolUse` hooks filter and compress shell output, file reads, and grep results before they hit the model, with a TUI dashboard tracking token savings per project.
@@ -107,6 +108,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) — battle-tested hook configs across Claude Code, Codex, and Cursor.
 - [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit) — issue-pipeline plugin with 28 hooks in four groups (safety, docs, manager, workflow) that gate commits on Conventional Commits and test proof, guard vendor files, and keep GitHub issue labels in step with the work.
 - [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) — generates a catalog of enforcement hooks (TDD guard, branch guard, command guard, commit-test gate, auto-lint, auto-PR) from a plain-English project description, with `omh sync --check` as a CI drift gate.
+- [LeeYudok/agents-scaffold](https://github.com/LeeYudok/agents-scaffold) — one-command installer that drops `AGENTS.md`, path-scoped rules, and Claude Code hooks (post-edit formatting, compact and stop reminders, a pre-commit gate) into a repo, backed by a real git pre-commit hook composed from 13 stack presets that blocks staged `.env` files and failing checks; also covers Codex and Antigravity.
 - [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) — 20+ hooks bundled with agents, skills, commands, and rules.
 - [vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem) — 73 hooks as part of a larger self-learning multi-agent swarm setup.
 - [yotamleo-org/Himmel](https://github.com/yotamleo-org/Himmel) — an orchestrated harness for running Claude Code that includes guardrail hooks, a Jira CLI, and a cross-session handover system.
