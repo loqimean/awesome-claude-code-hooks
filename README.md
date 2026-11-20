@@ -82,6 +82,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [ai-guard-dev/eslint-plugin-ai-guard](https://github.com/ai-guard-dev/eslint-plugin-ai-guard) — ESLint rules for AI-written JS/TS wired in through `PostToolUse`/`Stop`/`PreToolUse` hooks that feed lint findings back after each edit, block finishing on weakened tests, ask before `git commit --no-verify`, and optionally check npm packages for typosquats before install; also covers Cursor and Codex.
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) — toolkit of custom hooks/commands including lint/format/test gate hooks.
 - [ckorhonen/jev-lint](https://github.com/ckorhonen/jev-lint) — fuzzy linting hook that checks Claude Code and Codex edits against team standards and test-hygiene rules, returning findings to the agent.
+- [krishansubudhi/ratchet](https://github.com/krishansubudhi/ratchet) — `Stop` hook that won't let the turn end while the repo's code is over a line budget recorded by `ratchet init`; the agent has to delete code or ask a human for a logged grant. The plugin version adds a `PostToolUse` meter that warns as soon as an edit goes over.
 - [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) — `UserPromptSubmit` hook that rewrites loose prompts into precise ones before Claude sees them.
 
 ## Voice / TTS Hooks
