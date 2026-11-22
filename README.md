@@ -107,6 +107,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) — battle-tested hook configs across Claude Code, Codex, and Cursor.
 - [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit) — issue-pipeline plugin with 28 hooks in four groups (safety, docs, manager, workflow) that gate commits on Conventional Commits and test proof, guard vendor files, and keep GitHub issue labels in step with the work.
 - [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) — generates a catalog of enforcement hooks (TDD guard, branch guard, command guard, commit-test gate, auto-lint, auto-PR) from a plain-English project description, with `omh sync --check` as a CI drift gate.
+- [melthond/sharpen](https://github.com/melthond/sharpen) — plugin whose `SessionStart`, `UserPromptSubmit` and `PreToolUse` hooks rewrite each prompt into a specific one from the conversation, codebase and installed tools, and show it for approval before work starts.
 - [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) — 20+ hooks bundled with agents, skills, commands, and rules.
 - [vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem) — 73 hooks as part of a larger self-learning multi-agent swarm setup.
 - [yotamleo-org/Himmel](https://github.com/yotamleo-org/Himmel) — an orchestrated harness for running Claude Code that includes guardrail hooks, a Jira CLI, and a cross-session handover system.
