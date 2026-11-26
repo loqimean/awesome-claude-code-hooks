@@ -83,6 +83,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) — toolkit of custom hooks/commands including lint/format/test gate hooks.
 - [ckorhonen/jev-lint](https://github.com/ckorhonen/jev-lint) — fuzzy linting hook that checks Claude Code and Codex edits against team standards and test-hygiene rules, returning findings to the agent.
 - [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) — `UserPromptSubmit` hook that rewrites loose prompts into precise ones before Claude sees them.
+- [taipei49314/checkwash](https://github.com/taipei49314/checkwash) — Local, no-LLM CLI that flags loosened asserts, skipped tests, and weakened CI checks in a Git diff, with official Claude Code Stop and PreToolUse hooks (`checkwash hook install --agent claude-code --local`).
 
 ## Voice / TTS Hooks
 
