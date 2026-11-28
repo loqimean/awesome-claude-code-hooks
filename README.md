@@ -27,6 +27,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Getting Started / Guides
 
+- [Ar9av/agent-manual](https://github.com/Ar9av/agent-manual) — cross-tool hooks reference comparing event names, exit-code blocking rules, and config paths for Claude Code and 40+ other coding agents.
 - [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) — full project config example wiring hooks, skills, agents, and commands together.
 - [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) — skill auto-activation + hooks + agents infrastructure example.
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) — the most complete hands-on reference for every hook event, with working examples for each.
@@ -67,6 +68,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 
 ## Observability & Logging Hooks
 
+- [alexeyw/lot-map](https://github.com/alexeyw/lot-map) — plugin that draws a live local map beside the chat, pulsing each tool call, model step, skill, subagent, and hook refusal to its station, with per-call context-growth estimates.
 - [coleam00/claude-memory-compiler](https://github.com/coleam00/claude-memory-compiler) — hooks capture full sessions, an LLM compiler distills them into a structured, cross-referenced project knowledge base.
 - [disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability) — real-time dashboard for monitoring multiple Claude Code agents via hook event tracking.
 - [hansipie/ecotokens](https://github.com/hansipie/ecotokens) — `PreToolUse`/`PostToolUse` hooks filter and compress shell output, file reads, and grep results before they hit the model, with a TUI dashboard tracking token savings per project.
